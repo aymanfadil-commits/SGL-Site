@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#09111F"/>
+  <!-- outer circle -->
+  <circle cx="16" cy="16" r="10" stroke="#C4B49A" stroke-width="1.1"/>
+  <!-- vertical ellipse (longitude) -->
+  <ellipse cx="16" cy="16" rx="4.8" ry="10" stroke="#C4B49A" stroke-width="1.1"/>
+  <!-- equator -->
+  <line x1="6" y1="16" x2="26" y2="16" stroke="#C4B49A" stroke-width="1.1"/>
+  <!-- upper latitude -->
+  <path d="M8.6 11.2 Q16 9.8 23.4 11.2" stroke="#C4B49A" stroke-width="0.7" fill="none"/>
+  <!-- lower latitude -->
+  <path d="M8.6 20.8 Q16 22.2 23.4 20.8" stroke="#C4B49A" stroke-width="0.7" fill="none"/>
+</svg>
