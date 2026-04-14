@@ -489,7 +489,7 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
         
         <div className="flex flex-col">
           {[
-            { title: "Analysis before relationships", desc: "The firm maps before it engages. Regional networks complement analytical work — they do not replace it." },
+            { title: "Analysis before relationships", desc: "The firm maps before it engages. Regional networks complement analytical work, they do not replace it." },
             { title: "Positioning over brokering", desc: "Sage Global Links advises on structure and political feasibility. It does not execute transactions or act as an intermediary." },
             { title: "Depth over geography", desc: "The firm operates in corridors we know well. It does not claim expertise in markets it has not earned the right to advise on." },
             { title: "Discretion as standard", desc: "The nature of this work demands confidentiality. Every engagement is handled with the same discretion expected from clients." },
