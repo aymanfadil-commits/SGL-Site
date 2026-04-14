@@ -1019,12 +1019,6 @@ const ContactPage = () => {
                 <div className="font-serif text-2xl text-navy">Central and Western Africa</div>
               </div>
             </div>
-            <div className="flex flex-col gap-4">
-              <div className="text-slate-b text-[10px] md:text-[12.67px] tracking-[4px] uppercase font-bold">Engagement Model</div>
-              <p className="text-slate-500 font-light leading-relaxed text-lg md:text-[20.67px]">
-                Retainer-based for ongoing mandates. Defined-scope for assessments, structuring, and workshops. Each engagement is scoped individually.
-              </p>
-            </div>
           </div>
         </div>
       </section>
