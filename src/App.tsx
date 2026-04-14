@@ -323,7 +323,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
         >
           <div className="aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
             <img 
-              src="/images/about-portrait.jpg"
+              src="/images/home-portrait.jpg"
               alt="Strategic Advisory"
               className="w-full h-full object-cover"
             />
