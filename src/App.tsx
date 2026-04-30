@@ -456,9 +456,6 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
               The firm's background is not academic. It has been built in the field — navigating political transitions, managing institutional relationships under pressure, and structuring outcomes in environments where the margin for error is thin.
             </p>
-            <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              The founding advisor brings over two decades of senior leadership within the United Nations system, with direct operational experience across Africa and the Middle East at the highest institutional levels. That experience — earned in some of the world's most complex and consequential settings — shapes how every mandate is approached.
-            </p>
           </motion.div>
           <motion.div 
             whileInView={{ opacity: 1, y: 0 }}
