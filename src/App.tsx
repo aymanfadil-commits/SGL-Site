@@ -120,7 +120,7 @@ const Footer = ({ setPage }: { setPage: (p: Page) => void }) => (
           <Globe className="w-6 h-6 text-gold" strokeWidth={1.5} />
           <span className="font-serif text-lg text-offwhite tracking-wide">Sage Global Links</span>
         </div>
-        <p className="text-white/50 text-xs md:text-[14.67px] leading-relaxed font-light max-w-xs">
+        <p className="text-white/60 text-xs md:text-[14.67px] leading-relaxed font-light max-w-xs">
           Strategic advisory bridging capital and political realities across Africa and the Middle East.
         </p>
       </div>
@@ -152,8 +152,8 @@ const Footer = ({ setPage }: { setPage: (p: Page) => void }) => (
     </div>
     
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-      <span className="text-white/40 text-[10px] md:text-[12.67px] tracking-wider">© 2026 Sage Global Links Ltd. All rights reserved.</span>
-      <span className="text-white/40 text-[8px] md:text-[10.67px] tracking-[4px] uppercase hidden md:block">
+      <span className="text-white/50 text-[10px] md:text-[12.67px] tracking-wider">© 2026 Sage Global Links Ltd. All rights reserved.</span>
+      <span className="text-white/50 text-[8px] md:text-[10.67px] tracking-[4px] uppercase hidden md:block">
         Capital · Governance · Institutional Alignment
       </span>
     </div>
