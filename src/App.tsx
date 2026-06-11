@@ -731,7 +731,7 @@ const ServicesPage = () => (
             <p className={`font-light leading-relaxed text-xl md:text-[22.67px] max-w-2xl ${svc.dark ? 'text-offwhite/70' : 'text-slate-600'}`}>
               {svc.desc}
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-2 mt-8">
               {svc.points.map((p, j) => (
                 <div key={j} className="flex items-start gap-4">
                   <div className={`w-1.5 h-1.5 rounded-full mt-2.5 shrink-0 ${svc.dark ? 'bg-gold' : 'bg-slate-b'}`} />
