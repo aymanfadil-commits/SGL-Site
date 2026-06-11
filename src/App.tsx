@@ -243,7 +243,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
             Who We Are
           </div>
           <h2 className="font-serif font-light leading-tight text-4xl md:text-5xl lg:text-6xl">
-            Advisory built for markets that demand more.
+            Advisory built for capital that demands political clarity.
           </h2>
           <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
             Sage Global Links is a senior-level strategic advisory firm specialising in Africa and the Middle East. We combine rigorous political analysis with trusted regional networks to help clients move decisively in complex markets.
@@ -306,7 +306,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
             </blockquote>
           </motion.div>
           <p className="text-offwhite/70 font-light leading-relaxed mb-12 text-lg md:text-[20.67px]">
-            Sage Global Links was established to close that gap — for investors and corporations who understand that in complex markets, the right advisory relationship is a structural necessity.
+            Sage Global Links was founded to close that gap. In complex markets, the right advisory relationship shapes outcomes. It is not optional.
           </p>
           <button 
             onClick={() => setPage('about')}
@@ -358,7 +358,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
           {[
             { icon: <Search />, title: "Political Navigation Advisory", desc: "Aligning capital deployment with political and institutional reality across Africa and the Middle East." },
             { icon: <Handshake />, title: "Cross-Border Partnership", desc: "Structuring partnerships that are commercially sound, politically realistic, and institutionally durable." },
-            { icon: <Landmark />, title: "Institutional Design", desc: "Strengthening organisations for sustained performance in high-variability environments." }
+            { icon: <Landmark />, title: "Institutional Design", desc: "Building governance structures and internal frameworks that survive political transitions." }
           ].map((svc, i) => (
             <motion.div 
               key={i}
@@ -488,9 +488,9 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
           {[
             { title: "Analysis before relationships", desc: "The firm maps before it engages. Regional networks complement analytical work, they do not replace it." },
             { title: "Positioning over brokering", desc: "Sage Global Links advises on structure and political feasibility. It does not execute transactions or act as an intermediary." },
-            { title: "Depth over geography", desc: "The firm operates in corridors we know well. It does not claim expertise in markets it has not earned the right to advise on." },
+            { title: "Depth over geography", desc: "The firm operates in corridors we know well. It does not claim expertise beyond what it has demonstrated across years of work." },
             { title: "Discretion as standard", desc: "The nature of this work demands confidentiality. Every engagement is handled with the same discretion expected from clients." },
-            { title: "Senior counsel only", desc: "No delegation to junior staff. Every client engagement receives direct senior attention." }
+            { title: "Senior counsel only", desc: "Founder-led engagements. Strategic direction and client relationships are not delegated." }
           ].map((item, i) => (
             <motion.div 
               key={i}
@@ -555,9 +555,9 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
             <div className="h-px w-8 bg-gold" />
             Where We Work
           </div>
-          <h2 className="font-serif font-light text-offwhite text-3xl md:text-5xl mb-8">Depth over geography.</h2>
+          <h2 className="font-serif font-light text-offwhite text-3xl md:text-5xl mb-8">Where we operate.</h2>
           <p className="text-offwhite/70 font-light leading-relaxed text-lg md:text-[20.67px] mb-8">
-            Sage Global Links operates where it has earned the right to advise. The firm's presence is built on institutional knowledge, trusted relationships, and demonstrated experience — not geographic sprawl. Trusted by corporations and institutions globally, with deep operational focus across three regions.
+            Sage Global Links advises across three core regions where it has built institutional relationships and political knowledge over years of direct engagement. The firm does not claim regional expertise beyond what it has earned through demonstrated work.
           </p>
         </motion.div>
         
@@ -679,7 +679,7 @@ const ServicesPage = () => (
       {
         id: "02",
         title: "Cross-Border Partnership & Entry",
-        desc: "Successful entry into complex markets requires more than local representation — it requires institutional coherence. We structure partnerships that are commercially sound and politically realistic.",
+        desc: "Successful market entry requires more than a local office. It requires political alignment across both home and host institutions, and governance frameworks that can survive transitions. We structure partnerships that are commercially sound and politically durable.",
         points: [
           "Market entry structuring for foreign investors",
           "Public-private partnership viability assessments",
@@ -691,14 +691,14 @@ const ServicesPage = () => (
       },
       {
         id: "03",
-        title: "Institutional Design & Adaptation",
-        desc: "In complex markets, internal misalignment can be as damaging as external risk. We strengthen organisations for sustained performance in high-variability environments.",
+        title: "Organisational Alignment for Market Entry",
+        desc: "Moving into complex markets requires your internal structure to align with political reality. We advise on how to position your organisation — governance, roles, decision-making — to operate durably in these environments.",
         points: [
-          "Organisational structuring for new market entry",
-          "Local governance framework adaptation",
-          "Mandate and authority alignment",
-          "Institutional continuity planning",
-          "Internal capability strengthening"
+          "Organisational structure assessment for new market entry",
+          "Internal role and mandate clarity aligned to political context",
+          "Continuity planning across political transitions",
+          "Decision-making architecture for complex institutional environments",
+          "Board and leadership positioning for institutional stakeholder engagement"
         ],
         dark: false
       }
