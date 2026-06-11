@@ -392,11 +392,12 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
           viewBox="0 0 400 400" 
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="200" cy="200" r="180" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.3" />
-          <circle cx="200" cy="200" r="140" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.25" />
-          <circle cx="200" cy="200" r="100" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.2" />
-          <circle cx="200" cy="200" r="60" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.15" />
-          <circle cx="200" cy="200" r="20" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.1" />
+          <path d="M 120 80 L 160 70 L 180 90 L 200 85 L 210 110 L 230 100 L 240 130 L 250 140 L 260 160 L 270 180 L 280 200 L 290 220 L 285 240 L 280 260 L 270 280 L 260 290 L 240 295 L 220 290 L 200 295 L 180 290 L 160 285 L 140 280 L 120 270 L 100 250 L 90 230 L 85 200 L 80 170 L 75 140 L 80 110 L 95 90 Z" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="1.5" 
+            opacity="0.6"
+          />
         </svg>
       </div>
       <motion.div 
