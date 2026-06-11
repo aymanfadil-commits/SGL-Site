@@ -388,16 +388,17 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
     <section className="py-32 px-6 text-center bg-navy-l relative overflow-hidden">
       <div className="absolute inset-0 opacity-100 pointer-events-none">
         <svg 
-          className="w-[900px] h-[900px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white" 
-          viewBox="0 0 400 400" 
+          className="w-full h-full" 
+          viewBox="0 0 1200 800" 
+          preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M 120 80 L 160 70 L 180 90 L 200 85 L 210 110 L 230 100 L 240 130 L 250 140 L 260 160 L 270 180 L 280 200 L 290 220 L 285 240 L 280 260 L 270 280 L 260 290 L 240 295 L 220 290 L 200 295 L 180 290 L 160 285 L 140 280 L 120 270 L 100 250 L 90 230 L 85 200 L 80 170 L 75 140 L 80 110 L 95 90 Z" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="1.5" 
-            opacity="0.6"
-          />
+          {/* Horizontal layered bands */}
+          <rect x="0" y="50" width="1200" height="120" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.08" />
+          <rect x="0" y="200" width="1200" height="140" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.06" />
+          <rect x="0" y="380" width="1200" height="100" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.07" />
+          <rect x="0" y="520" width="1200" height="130" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.05" />
+          <rect x="0" y="680" width="1200" height="90" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.06" />
         </svg>
       </div>
       <motion.div 
