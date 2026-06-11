@@ -386,8 +386,18 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
 
     {/* CTA */}
     <section className="py-32 px-6 text-center bg-navy-l relative overflow-hidden">
-      <div className="absolute inset-0 opacity-5 pointer-events-none">
-        <Globe className="w-[800px] h-[800px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white" />
+      <div className="absolute inset-0 opacity-100 pointer-events-none">
+        <svg 
+          className="w-[900px] h-[900px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white" 
+          viewBox="0 0 400 400" 
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="200" cy="200" r="180" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.3" />
+          <circle cx="200" cy="200" r="140" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.25" />
+          <circle cx="200" cy="200" r="100" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.2" />
+          <circle cx="200" cy="200" r="60" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.15" />
+          <circle cx="200" cy="200" r="20" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.1" />
+        </svg>
       </div>
       <motion.div 
         whileInView={{ opacity: 1, scale: 1 }}
