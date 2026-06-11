@@ -121,7 +121,7 @@ const Footer = ({ setPage }: { setPage: (p: Page) => void }) => (
           <span className="font-serif text-lg text-offwhite tracking-wide">Sage Global Links</span>
         </div>
         <p className="text-white/30 text-xs md:text-[14.67px] leading-relaxed font-light max-w-xs">
-          Senior-level strategic advisory bridging capital and political realities in Africa and the Middle East.
+          Strategic advisory bridging capital and political realities across Africa and the Middle East.
         </p>
       </div>
       
