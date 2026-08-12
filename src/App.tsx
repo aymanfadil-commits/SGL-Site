@@ -226,7 +226,7 @@ function CorridorCanvas() {
       if (!b) return;
       b.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-      b.strokeStyle = 'rgba(210, 198, 172, 0.05)';
+      b.strokeStyle = 'rgba(210, 198, 172, 0.10)';
       b.lineWidth = 0.6;
       for (const lon of GRAT_LON) {
         b.beginPath();
@@ -237,7 +237,7 @@ function CorridorCanvas() {
         b.stroke();
       }
       for (const lat of GRAT_LAT) {
-        b.strokeStyle = lat === 0 ? 'rgba(210, 198, 172, 0.09)' : 'rgba(210, 198, 172, 0.05)';
+        b.strokeStyle = lat === 0 ? 'rgba(210, 198, 172, 0.18)' : 'rgba(210, 198, 172, 0.10)';
         b.beginPath();
         for (let lon = -26; lon <= 68; lon += 2) {
           const p = proj(lon, lat);
@@ -248,12 +248,12 @@ function CorridorCanvas() {
       if (w > 760) {
         const eq = proj(66.5, 0);
         b.font = '9px "Spline Sans Mono", monospace';
-        b.fillStyle = 'rgba(180, 173, 156, 0.35)';
+        b.fillStyle = 'rgba(180, 173, 156, 0.5)';
         b.fillText('0\u00B0', eq.x, eq.y - 5);
       }
 
-      b.strokeStyle = 'rgba(210, 198, 172, 0.2)';
-      b.lineWidth = 0.7;
+      b.strokeStyle = 'rgba(210, 198, 172, 0.4)';
+      b.lineWidth = 0.85;
       b.lineJoin = 'round';
       for (const line of COAST) {
         b.beginPath();
@@ -265,8 +265,8 @@ function CorridorCanvas() {
       }
 
       const pts = CITIES.map(px);
-      b.strokeStyle = 'rgba(210, 198, 172, 0.16)';
-      b.lineWidth = 0.8;
+      b.strokeStyle = 'rgba(210, 198, 172, 0.3)';
+      b.lineWidth = 0.9;
       for (const [ai, bi] of CORRIDORS) {
         const a = pts[ai];
         const c = pts[bi];
@@ -372,8 +372,8 @@ function CorridorCanvas() {
         ctx.arc(x, y, (isHover ? 10 : 6.5) + pulse * 3.2, 0, Math.PI * 2);
         ctx.strokeStyle = isHover
           ? 'rgba(190, 155, 100, 0.5)'
-          : `rgba(125, 156, 177, ${0.2 + pulse * 0.1})`;
-        ctx.lineWidth = 0.7;
+          : `rgba(125, 156, 177, ${0.32 + pulse * 0.14})`;
+        ctx.lineWidth = 0.8;
         ctx.stroke();
 
         if ((c.label || isHover) && w > 640) {
@@ -381,10 +381,10 @@ function CorridorCanvas() {
           const lx = x + (left ? -11 : 11);
           ctx.textAlign = left ? 'right' : 'left';
           ctx.font = '9px "Spline Sans Mono", monospace';
-          ctx.fillStyle = isHover ? 'rgba(220, 210, 188, 0.95)' : 'rgba(180, 173, 156, 0.8)';
+          ctx.fillStyle = isHover ? 'rgba(220, 210, 188, 0.95)' : 'rgba(190, 183, 166, 0.92)';
           const latStr = `${Math.abs(c.lat).toFixed(1)}\u00B0${c.lat >= 0 ? 'N' : 'S'}`;
           ctx.fillText(c.name, lx, y + 1);
-          ctx.fillStyle = isHover ? 'rgba(220, 210, 188, 0.6)' : 'rgba(180, 173, 156, 0.45)';
+          ctx.fillStyle = isHover ? 'rgba(220, 210, 188, 0.6)' : 'rgba(180, 173, 156, 0.6)';
           ctx.fillText(latStr, lx, y + 12);
           ctx.textAlign = 'left';
         }
@@ -455,7 +455,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
       <div className="absolute inset-0 z-0 pointer-events-none">
         <CorridorCanvas />
       </div>
-      <div className="absolute inset-0 z-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-r from-navy via-navy/70 to-navy/5" />
       <div className="absolute inset-x-0 bottom-0 h-40 z-0 bg-gradient-to-t from-navy to-transparent" />
 
       <div className="max-w-7xl mx-auto w-full relative z-10">
