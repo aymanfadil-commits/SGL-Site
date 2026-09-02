@@ -733,11 +733,11 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 30 }}
           viewport={{ once: true }}
-          className="font-serif font-light leading-tight text-3xl md:text-5xl max-w-2xl mb-16 lg:mb-20"
+          className="font-serif font-light leading-tight text-3xl md:text-5xl max-w-2xl mb-10 lg:mb-20"
         >
           Founded by practitioners, not observers.
         </motion.h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
           <motion.div 
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 30 }}
