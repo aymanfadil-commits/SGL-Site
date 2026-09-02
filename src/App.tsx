@@ -779,7 +779,7 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
             { title: "Positioning over brokering", desc: "Sage Global Links advises on structure and political feasibility. It does not execute transactions or act as an intermediary." },
             { title: "Depth over geography", desc: "The firm operates in corridors we know well. It does not claim expertise beyond what it has demonstrated across years of work." },
             { title: "Discretion as standard", desc: "The nature of this work demands confidentiality. Every engagement is handled with the same discretion expected from clients." },
-            { title: "Senior counsel only", desc: "Founder-led engagements. Strategic direction and client relationships are not delegated." }
+            { title: "Senior-led engagements", desc: "Mandates are directed by senior advisors and remain founder-led. Strategic direction and client relationships are not delegated." }
           ].map((item, i) => (
             <motion.div 
               key={i}
