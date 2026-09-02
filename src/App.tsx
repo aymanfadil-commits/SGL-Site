@@ -507,8 +507,8 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
     </section>
 
     {/* Who We Are Intro */}
-        <section className="py-20 md:py-32 px-6 lg:px-16 bg-offwhite text-navy">
-      <div className="max-w-7xl mx-auto">
+       <section className="py-32 px-6 lg:px-16 bg-offwhite text-navy">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
          <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -30 }}
@@ -727,23 +727,18 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
       </div>
     </section>
 
-    <section className="py-32 px-6 lg:px-16 bg-offwhite text-navy">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-        <motion.h2
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 30 }}
-          viewport={{ once: true }}
-          className="font-serif font-light leading-tight text-3xl md:text-5xl max-w-2xl mb-10 lg:mb-20"
-        >
-          Founded by practitioners, not observers.
-        </motion.h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
+        <section className="py-32 px-6 lg:px-16 bg-offwhite text-navy">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
           <motion.div 
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 30 }}
             viewport={{ once: true }}
             className="flex flex-col gap-8"
           >
+            <h2 className="font-serif font-light leading-tight text-3xl md:text-5xl">
+              Founded by practitioners, not observers.
+            </h2>
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
               Sage Global Links was founded by practitioners, not observers. The advisory team brings decades of direct experience operating at the highest levels of international institutions, government, and cross-border development across Africa, the Middle East, and beyond.
             </p>
