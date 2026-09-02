@@ -727,7 +727,7 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
       </div>
     </section>
 
-        <section className="py-32 px-6 lg:px-16 bg-offwhite text-navy">
+    <section className="py-32 px-6 lg:px-16 bg-offwhite text-navy">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
           <motion.div 
@@ -740,10 +740,10 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
               Founded by practitioners, not observers.
             </h2>
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              Sage Global Links was founded by practitioners, not observers. The advisory team brings decades of direct experience operating at the highest levels of international institutions, government, and cross-border development across Africa, the Middle East, and beyond.
+              The advisory team brings decades of direct experience operating at the highest levels of international institutions, government, and cross-border development across Africa, the Middle East, and beyond.
             </p>
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              The firm's background is not academic. It has been built in the field — navigating political transitions, managing institutional relationships under pressure, and structuring outcomes in environments where the margin for error is thin.
+              That experience was built in the field, navigating political transitions, managing institutional relationships under pressure, and structuring outcomes in environments where the margin for error is thin.
             </p>
           </motion.div>
           <motion.div 
@@ -754,10 +754,10 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
             className="flex flex-col gap-8"
           >
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              The firm was established out of a recognition that the gap between capital and governance in complex markets was not being adequately served. Too many investments stall, partnerships collapse, and market entries fail — not because the commercial logic is wrong, but because the political and institutional groundwork was never laid.
+              Sage Global Links was established in recognition of a persistent gap between capital and governance in complex markets. Investments stall, partnerships falter, and market entries fail, often not because the commercial logic is unsound, but because the political and institutional groundwork was never properly established.
             </p>
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              Sage Global Links provides the bridge between these two worlds. The firm understands how institutions work from the inside, how political authority is exercised in practice, and how to position capital and partnerships to endure beyond a single political cycle.
+              Sage Global Links operates at that intersection. The firm understands how institutions work from the inside, how political authority is exercised in practice, and how to position capital and partnerships to endure beyond a single political cycle.
             </p>
           </motion.div>
         </div>
