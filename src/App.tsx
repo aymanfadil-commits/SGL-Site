@@ -509,7 +509,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
     {/* Who We Are Intro */}
         <section className="py-20 md:py-32 px-6 lg:px-16 bg-offwhite text-navy">
       <div className="max-w-7xl mx-auto">
-         <motion.h2
+         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -30 }}
           viewport={{ once: true }}
@@ -729,7 +729,7 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
 
     <section className="py-32 px-6 lg:px-16 bg-offwhite text-navy">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-        <motion.div
+        <motion.h2
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 30 }}
           viewport={{ once: true }}
