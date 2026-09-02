@@ -507,9 +507,9 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
     </section>
 
     {/* Who We Are Intro */}
-    <section className="py-20 md:py-32 px-6 lg:px-16 bg-offwhite text-navy">
+        <section className="py-20 md:py-32 px-6 lg:px-16 bg-offwhite text-navy">
       <div className="max-w-7xl mx-auto">
-        <motion.h2
+         <motion.h2
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -30 }}
           viewport={{ once: true }}
