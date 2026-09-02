@@ -121,7 +121,7 @@ const Footer = ({ setPage }: { setPage: (p: Page) => void }) => (
           <span className="font-serif text-lg text-offwhite tracking-wide">Sage Global Links</span>
         </div>
         <p className="text-white/60 text-xs md:text-[14.67px] leading-relaxed font-light max-w-xs">
-          Strategic advisory bridging capital and political realities across Africa and the Middle East.
+          Strategic advisory on investment, infrastructure and institutions across Africa and the Middle East.
         </p>
       </div>
       
@@ -487,7 +487,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-offwhite/70 font-light leading-relaxed max-w-xl text-lg md:text-[22.67px] mb-12"
         >
-          Senior-level strategic advisory for corporations and institutional investors navigating Africa and the Middle East.
+          Senior-level advisory for investors, developers and contractors in infrastructure and trade across Africa and the Middle East.
         </motion.p>
         
         <motion.div
@@ -520,10 +520,10 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
             Who We Are
           </div>
           <h2 className="font-serif font-light leading-tight text-4xl md:text-5xl lg:text-6xl">
-            Advisory built for capital that demands political clarity.
+            Understanding the economies that shape investment.
           </h2>
           <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-            Sage Global Links is a senior-level strategic advisory firm specialising in Africa and the Middle East. We combine rigorous political analysis with trusted regional networks to help clients move decisively in complex markets.
+            Sage Global Links is a senior-level advisory firm working in African and Middle Eastern markets. We combine rigorous political and institutional analysis with trusted regional networks so that clients can move decisively — and so that what they build lasts beyond a single political cycle.
           </p>
           <button 
             onClick={() => setPage('about')}
@@ -579,11 +579,11 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
             className="border-l-4 border-gold pl-10 py-4 mb-12"
           >
             <blockquote className="font-serif italic font-light text-offwhite leading-tight text-3xl md:text-5xl">
-              "Capital deployed without political and institutional clarity is capital at risk."
+              "Markets are not simply places where capital is deployed. They are economies with priorities, constraints and ambitions of their own."
             </blockquote>
           </motion.div>
           <p className="text-offwhite/70 font-light leading-relaxed mb-12 text-lg md:text-[20.67px]">
-            Sage Global Links was founded to close that gap. In complex markets, the right advisory relationship shapes outcomes. It is not optional.
+            Investment does not enter a vacuum. Every market has institutions, an industrial agenda and a set of constraints on what it can build. Projects succeed when they account for those realities from the beginning.
           </p>
           <button 
             onClick={() => setPage('about')}
