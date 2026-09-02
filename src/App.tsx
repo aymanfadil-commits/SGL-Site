@@ -728,8 +728,8 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
     </section>
 
     <section className="py-32 px-6 lg:px-16 bg-offwhite text-navy">
-      <div className="max-w-7xl mx-auto">
-         <motion.h2 
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+        <motion.div
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 30 }}
           viewport={{ once: true }}
