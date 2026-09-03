@@ -721,8 +721,8 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
           transition={{ delay: 0.2 }}
           className="font-serif font-light text-offwhite leading-tight text-5xl md:text-8xl"
         >
-          Built at the intersection of<br />
-          <span className="text-gold italic">capital and governance.</span>
+          Built around how<br />
+          <span className="text-gold italic">economies actually work.</span>
         </motion.h1>
       </div>
     </section>
@@ -740,10 +740,10 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
               Founded by practitioners, not observers.
             </h2>
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              The advisory team brings decades of direct experience operating at the highest levels of international institutions, government, and cross-border development across Africa, the Middle East, and beyond.
+              Sage Global Links brings senior experience across international institutions, government and cross-border infrastructure to markets where political decisions and commercial outcomes are closely intertwined.
             </p>
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              That experience was built in the field, navigating political transitions, managing institutional relationships under pressure, and structuring outcomes in environments where the margin for error is thin.
+              That experience was built in the field — through political transitions, institutional relationships under pressure, and programmes where the margin for error is thin. Our work is grounded in a straightforward understanding: investment does not enter a vacuum. Every market has its own institutions, priorities, constraints and ambitions.
             </p>
           </motion.div>
           <motion.div 
@@ -754,10 +754,10 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
             className="flex flex-col gap-8"
           >
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              Sage Global Links was established in recognition of a persistent gap between capital and governance in complex markets. Investments stall, partnerships falter, and market entries fail, often not because the commercial logic is unsound, but because the political and institutional groundwork was never properly established.
+              Sage Global Links was established in recognition of a persistent gap between investment and institutional understanding. Investments stall, partnerships falter, and market entries fail, often not because the commercial logic is unsound, but because the political and institutional groundwork was never properly established.
             </p>
             <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-              Sage Global Links operates at that intersection. The firm understands how institutions work from the inside, how political authority is exercised in practice, and how to position capital and partnerships to endure beyond a single political cycle.
+              We help investors and corporations understand those environments, make better decisions within them, and structure their engagement for the long term. We do not treat political and institutional realities as obstacles to be managed around. They are part of the environment in which an investment operates, and understanding them properly is essential to creating lasting value.
             </p>
           </motion.div>
         </div>
