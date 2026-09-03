@@ -633,9 +633,9 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
+            { icon: <Search />, title: "Market & Institutional Intelligence", desc: "How a market is changing, and why — regulatory movement, procurement pipelines, industrial policy and institutional change, read against your position." },
             { icon: <Shield />, title: "Pre-Investment Assessment", desc: "Before capital moves, understand the environment it is entering — institutions, stakeholders, fiscal conditions and what a government needs from private investment." },
-            { icon: <Landmark />, title: "Decision & Stakeholder Mapping", desc: "Formal authority tells you who should make a decision. We map who actually shapes it, and how a project moves through the institutions that decide." },
-            { icon: <Search />, title: "Tender & Project Positioning", desc: "Governments do not procure infrastructure in a vacuum. We help bidders understand what a tender is designed to accomplish, and position accordingly." }
+            { icon: <Landmark />, title: "Decision & Stakeholder Mapping", desc: "Formal authority tells you who should make a decision. We map who actually shapes it, and how a project moves through the institutions that decide." }
           ].map((svc, i) => (
             <motion.div 
               key={i}
