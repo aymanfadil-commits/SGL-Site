@@ -633,9 +633,9 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { icon: <Search />, title: "Political Navigation Advisory", desc: "Aligning capital deployment with political and institutional reality across Africa and the Middle East." },
-            { icon: <Handshake />, title: "Cross-Border Partnership", desc: "Structuring partnerships that are commercially sound, politically realistic, and institutionally durable." },
-            { icon: <Landmark />, title: "Institutional Design", desc: "Building governance structures and internal frameworks that survive political transitions." }
+            { icon: <Shield />, title: "Pre-Investment Assessment", desc: "Before capital moves, understand the environment it is entering — institutions, stakeholders, fiscal conditions and what a government needs from private investment." },
+            { icon: <Landmark />, title: "Decision & Stakeholder Mapping", desc: "Formal authority tells you who should make a decision. We map who actually shapes it, and how a project moves through the institutions that decide." },
+            { icon: <Search />, title: "Tender & Project Positioning", desc: "Governments do not procure infrastructure in a vacuum. We help bidders understand what a tender is designed to accomplish, and position accordingly." }
           ].map((svc, i) => (
             <motion.div 
               key={i}
