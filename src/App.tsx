@@ -957,37 +957,62 @@ const ServicesPage = () => (
         title: "Market & Institutional Intelligence",
         desc: "Continuous coverage of one market or corridor. We track regulatory movement, procurement pipelines, institutional and personnel change, industrial policy and the political conditions bearing on foreign participation — and report what each development means for your position rather than summarising the news.",
         points: [
-          "Political and stakeholder mapping for capital deployment",
-          "Regulatory pathway strategy",
-          "Institutional power structure analysis",
-          "Government-facing engagement strategy",
-          "Political risk structuring at board level"
+          "Monthly written brief framed against your stated interests",
+          "Notice of relevant procurements entering the pipeline",
+          "Alerts on developments requiring attention between briefs",
+          "Quarterly working call"
         ],
         dark: false
       },
       {
         id: "02",
-        title: "Cross-Border Partnership & Entry",
-        desc: "Successful market entry requires more than a local office. It requires political alignment across both home and host institutions, and governance frameworks that can survive transitions. We structure partnerships that are commercially sound and politically durable.",
+        title: "Pre-Investment Assessment",
+        desc: "An assessment of the political economy, institutions, stakeholders, regulatory architecture, fiscal conditions and development priorities surrounding a defined project, concession, PPP, acquisition or financing opportunity. The question is not only whether you can invest here. It is what would make this investment viable here.",
         points: [
-          "Market entry structuring for foreign investors",
-          "Public-private partnership viability assessments",
-          "Strategic partner identification and vetting",
-          "Cross-border corridor strategy",
-          "Government-investor alignment frameworks"
+          "Pre-Investment Institutional Assessment memorandum",
+          "Two-page brief for an investment or credit committee",
+          "Government dependency and decision-pathway map",
+          "Institutional issue register covering timing, permissions and execution",
+          "Diligence-escalation matrix identifying what belongs to specialist advisers",
+          "Senior readout with the transaction team"
         ],
         dark: true
       },
       {
         id: "03",
-        title: "Organisational Alignment for Market Entry",
-        desc: "Moving into complex markets requires your internal structure to align with political reality. We advise on how to position your organisation — governance, roles, decision-making — to operate durably in these environments.",
+        title: "Decision & Stakeholder Mapping",
+        desc: "Formal authority tells you who should make a decision. Institutional knowledge tells you who shapes it. We map the ministries, agencies, regulators, political actors, technical authorities, state-owned entities and commercial interests that determine how a project advances — and the sequence in which they have to be addressed.",
         points: [
-          "Organisational structure assessment for new market entry",
-          "Internal role and mandate clarity aligned to political context",
-          "Continuity planning across political transitions",
-          "Decision-making architecture for complex institutional environments",
-          "Board and leadership positioning for institutional stakeholder engagement"
+          "Stakeholder map and engagement matrix",
+          "Decision-maker and influencer map showing formal authority and actual influence",
+          "Stakeholder profile pack covering interests, incentives and likely concerns",
+          "Ninety-day sequence identifying preparation steps and information gaps",
+          "Working session to test the map against your commercial assumptions"
+        ],
+        dark: false
+      },
+    {
+        id: "04",
+        title: "Tender & Project Positioning",
+        desc: "Governments do not procure infrastructure in a vacuum. Tenders reflect economic priorities, political commitments and national development objectives. Local content is not simply an obstacle. Technology transfer is not simply a cost. Each is part of the logic of the project — and a bid that serves that logic competes on ground where price alone does not decide.",
+        points: [
+          "Positioning brief covering the authority, its evaluation practice and the competitive field",
+          "Compliance annex on funder integrity rules and eligibility conditions",
+          "Assessment of your position against the requirements, and where it is weak",
+          "Recommendations on partnering, local content and bid emphasis"
+        ],
+        dark: true
+      },
+      {
+        id: "05",
+        title: "Strategic Market Counsel",
+        desc: "As the market changes, so does the strategy. Continuing senior counsel for clients with an active pipeline or operating exposure. We track the agreed issue set, provide concise written analysis, prepare executives for priority moments, and help you judge when a discrete project or specialist adviser is needed.",
+        points: [
+          "Monthly counsel brief covering developments, implications and decisions required",
+          "Rapid-response written notes on in-scope questions",
+          "Monthly executive call",
+          "Maintained issue, stakeholder and decision tracker",
+          "Quarterly forward-look on upcoming institutional milestones"
         ],
         dark: false
       }
