@@ -776,10 +776,10 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
         <div className="flex flex-col">
           {[
             { title: "Analysis before relationships", desc: "The firm maps before it engages. Regional networks complement analytical work, they do not replace it." },
-            { title: "Positioning over brokering", desc: "Sage Global Links advises on structure and political feasibility. It does not execute transactions or act as an intermediary." },
-            { title: "Depth over geography", desc: "The firm operates in corridors we know well. It does not claim expertise beyond what it has demonstrated across years of work." },
+            { title: "Positioning, not brokering", desc: "Sage Global Links advises on structure, feasibility and positioning. It does not execute transactions, arrange introductions as a service, or act as an intermediary." },
+            { title: "Depth over geography", desc: "The firm works in corridors it knows well, and says plainly where it does not." },
             { title: "Discretion as standard", desc: "The nature of this work demands confidentiality. Every engagement is handled with the same discretion expected from clients." },
-            { title: "Senior-led engagements", desc: "Mandates are directed by senior advisors and remain founder-led. Strategic direction and client relationships are not delegated." }
+            { title: "Senior-led engagements", desc: "Mandates are directed by senior advisors and remain founder-led. Strategic direction and client relationships are not delegated." },
           ].map((item, i) => (
             <motion.div 
               key={i}
@@ -812,9 +812,9 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {[
             { label: "Corridor-Based Insight", body: "Direct familiarity with institutional systems, political dynamics, and regulatory environments on both sides of key investment corridors." },
-            { label: "Capital-First Political Economy", body: "Political systems are analysed through the lens of capital deployment and institutional durability — not academic theory." },
-            { label: "Structured Networks", body: "Where appropriate, the firm facilitates introductions and strategic convening that advance alignment. Relationships support the work — they do not substitute for it." },
-            { label: "Institutional Discipline", body: "Sage Global Links does not overpromise influence. The focus is structure, clarity, and risk mitigation." }
+            { label: "Political Economy, Practically Applied", body: "We examine markets through the relationship between political authority, economic priorities and commercial interests. Formal institutions tell only part of the story. Understanding how decisions are actually made — and why — is what allows projects to move." },
+            { label: "Development Context Matters", body: "Investment decisions are shaped by more than market conditions. Infrastructure deficits, industrial policy, trade ambitions, fiscal constraints and institutional capacity all influence what governments seek from private capital." },
+            { label: "Institutional Discipline", body: "The focus is structure, clarity and evidence. Where a question belongs to legal, technical, financial or compliance specialists, we say so and identify what they need to test." }
           ].map((pillar, i) => (
             <motion.div 
               key={i}
@@ -946,7 +946,7 @@ const ServicesPage = () => (
           <span className="text-gold italic">unstructured environments.</span>
         </h1>
         <p className="text-offwhite/70 font-light leading-relaxed max-w-2xl text-xl md:text-[22.67px]">
-          Sage Global Links provides structured advisory support to corporations and investors operating where political dynamics directly shape commercial outcomes.
+          Sage Global Links provides structured advisory support to investors, developers and contractors operating where political and institutional dynamics directly shape commercial outcomes. Five service lines, each producing a written product built for a decision.
         </p>
       </div>
     </section>
