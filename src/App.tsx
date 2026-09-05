@@ -957,10 +957,10 @@ const ServicesPage = () => (
         title: "Market & Institutional Intelligence",
         desc: "Continuous coverage of one market or corridor. We track regulatory movement, procurement pipelines, institutional and personnel change, industrial policy and the political conditions bearing on foreign participation — and report what each development means for your position rather than summarising the news.",
         points: [
-          "Monthly written brief framed against your stated interests",
-          "Notice of relevant procurements entering the pipeline",
+          "Monthly written market intelligence brief framed against your stated interests",
+          "Notifications of relevant procurements and institutional developments entering the pipeline",
           "Alerts on developments requiring attention between briefs",
-          "Quarterly working call"
+          "Quarterly strategic review call"
         ],
         dark: false
       },
@@ -971,7 +971,7 @@ const ServicesPage = () => (
         points: [
           "Pre-Investment Institutional Assessment memorandum",
           "Two-page brief for an investment or credit committee",
-          "Government dependency and decision-pathway map",
+          "Government dependency and approval pathway assessment",
           "Institutional issue register covering timing, permissions and execution",
           "Diligence-escalation matrix identifying what belongs to specialist advisers",
           "Senior readout with the transaction team"
@@ -983,10 +983,10 @@ const ServicesPage = () => (
         title: "Decision & Stakeholder Mapping",
         desc: "Formal authority tells you who should make a decision. Institutional knowledge tells you who shapes it. We map the ministries, agencies, regulators, political actors, technical authorities, state-owned entities and commercial interests that determine how a project advances — and the sequence in which they have to be addressed.",
         points: [
-          "Stakeholder map and engagement matrix",
+          "Stakeholder map and stakeholder matrix",
           "Decision-maker and influencer map showing formal authority and actual influence",
           "Stakeholder profile pack covering interests, incentives and likely concerns",
-          "Ninety-day sequence identifying preparation steps and information gaps",
+          "Decision pathway and ninety-day engagement sequence",
           "Working session to test the map against your commercial assumptions"
         ],
         dark: false
@@ -998,7 +998,7 @@ const ServicesPage = () => (
         points: [
           "Positioning brief covering the authority, its evaluation practice and the competitive field",
           "Compliance annex on funder integrity rules and eligibility conditions",
-          "Assessment of your position against the requirements, and where it is weak",
+          "Assessment of your position against the requirements, and where it requires strengthening",
           "Recommendations on partnering, local content and bid emphasis"
         ],
         dark: true
@@ -1006,13 +1006,14 @@ const ServicesPage = () => (
       {
         id: "05",
         title: "Strategic Market Counsel",
-        desc: "As the market changes, so does the strategy. Continuing senior counsel for clients with an active pipeline or operating exposure. We track the agreed issue set, provide concise written analysis, prepare executives for priority moments, and help you judge when a discrete project or specialist adviser is needed.",
+        desc: "Continuing senior counsel for clients with an active investment pipeline, operating exposure or institutional agenda. A standing advisory relationship for decisions that do not fit neatly within a single project: interpreting developments, testing strategic options, preparing executives for consequential engagements, and determining when a question requires deeper analysis or specialist advice.",
         points: [
-          "Monthly counsel brief covering developments, implications and decisions required",
-          "Rapid-response written notes on in-scope questions",
-          "Monthly executive call",
-          "Maintained issue, stakeholder and decision tracker",
-          "Quarterly forward-look on upcoming institutional milestones"
+          "Monthly strategic counsel brief covering priority developments, implications and decisions",
+          "Rapid-response analysis on in-scope strategic questions",
+          "Monthly executive advisory call",
+          "Preparation for priority government, institutional and commercial engagements",
+          "Maintained strategic issue and decision tracker",
+          "Quarterly forward-looking strategy session"
         ],
         dark: false
       }
