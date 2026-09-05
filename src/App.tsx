@@ -1046,6 +1046,39 @@ const ServicesPage = () => (
         </div>
       </section>
     ))}
+    
+    <section className="py-32 px-6 lg:px-16 bg-navy">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex items-center gap-3 text-gold text-[10px] md:text-[12.67px] tracking-[4px] uppercase font-bold mb-6">
+          <div className="h-px w-8 bg-gold" />
+          Boundaries
+        </div>
+        <h2 className="font-serif font-light text-offwhite text-3xl md:text-5xl mb-16">
+          What we do not do.
+        </h2>
+        <div className="flex flex-col">
+          {[
+            { title: "We do not broker transactions.", desc: "We advise on positioning, structure and strategy. We do not act as agents, intermediaries or transaction brokers." },
+            { title: "We do not sell access.", desc: "Relationships are an input to our work, not the product itself. We do not promise political access or imply influence we do not have." },
+            { title: "We do not work around institutions.", desc: "Regulatory and institutional requirements are part of the environment in which an investment operates. Our role is to understand them and help clients navigate them effectively, not circumvent them." },
+            { title: "We do not treat markets as static.", desc: "Political, institutional and economic conditions change. Our advice is built around understanding those changes rather than relying on generic country-risk assumptions." },
+            { title: "We do not separate commercial success from institutional durability.", desc: "A project that cannot withstand political, fiscal or institutional realities is not a durable commercial proposition." }
+          ].map((item, i) => (
+            <motion.div
+              key={i}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -20 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+              className="grid grid-cols-1 lg:grid-cols-[360px_1fr] gap-8 py-10 border-b border-white/10 hover:bg-offwhite/[0.02] transition-colors px-4"
+            >
+              <h3 className="font-serif text-2xl text-offwhite font-light">{item.title}</h3>
+              <p className="text-offwhite/70 font-light leading-relaxed text-lg md:text-[20.67px]">{item.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
   </div>
 );
 
