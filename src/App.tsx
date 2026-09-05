@@ -954,8 +954,8 @@ const ServicesPage = () => (
     {[
       {
         id: "01",
-        title: "Political Navigation Advisory",
-        desc: "When investment strategy meets political systems, friction emerges. Regulatory frameworks shift with political transitions. Approval pathways are formally defined but informally negotiated.",
+        title: "Market & Institutional Intelligence",
+        desc: "Continuous coverage of one market or corridor. We track regulatory movement, procurement pipelines, institutional and personnel change, industrial policy and the political conditions bearing on foreign participation — and report what each development means for your position rather than summarising the news.",
         points: [
           "Political and stakeholder mapping for capital deployment",
           "Regulatory pathway strategy",
