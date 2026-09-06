@@ -779,6 +779,7 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
             { title: "Positioning, not brokering", desc: "Sage Global Links advises on structure, feasibility and positioning. It does not execute transactions, arrange introductions as a service, or act as an intermediary." },
             { title: "Depth over geography", desc: "The firm works in corridors it knows well, and says plainly where it does not." },
             { title: "Discretion as standard", desc: "The nature of this work demands confidentiality. Every engagement is handled with the same discretion expected from clients." },
+            { title: "Markets are not static", desc: "Political, institutional and economic conditions change. Our analysis accounts for those changes rather than relying on generic country-risk assumptions." },
             { title: "Senior-led engagements", desc: "Mandates are directed by senior advisors and remain founder-led. Strategic direction and client relationships are not delegated." },
           ].map((item, i) => (
             <motion.div 
@@ -1060,9 +1061,8 @@ const ServicesPage = () => (
           {[
             { title: "We do not broker transactions.", desc: "We advise on positioning, structure and strategy. We do not act as agents, intermediaries or transaction brokers." },
             { title: "We do not sell access.", desc: "Relationships are an input to our work, not the product itself. We do not promise political access or imply influence we do not have." },
-            { title: "We do not work around institutions.", desc: "Regulatory and institutional requirements are part of the environment in which an investment operates. Our role is to understand them and help clients navigate them effectively, not circumvent them." },
-            { title: "We do not treat markets as static.", desc: "Political, institutional and economic conditions change. Our advice is built around understanding those changes rather than relying on generic country-risk assumptions." },
-            { title: "We do not separate commercial success from institutional durability.", desc: "A project that cannot withstand political, fiscal or institutional realities is not a durable commercial proposition." }
+            { title: "We do not work around institutions.", desc: "Regulatory and institutional requirements are part of the environment in which an investment operates. We help clients understand and navigate them, not circumvent them." },
+            { title: "We do not separate commercial viability from long-term durability.", desc: "A project that cannot withstand political, fiscal or institutional realities is not a durable commercial proposition." }
           ].map((item, i) => (
             <motion.div
               key={i}
