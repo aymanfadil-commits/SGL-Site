@@ -791,7 +791,7 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
         </div>
         <h2 className="font-serif font-light text-navy text-3xl md:text-5xl mb-10">Senior-led. Deliberately lean.</h2>
         <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px] max-w-3xl mb-16">
-          Sage Global Links operates as a senior-led advisory core supported by a curated network of regional advisors, former policymakers, business people, sector specialists, and governance experts. This model allows mandate-specific expertise to be deployed without the overhead of a large firm — and without compromising the quality of counsel clients receive. The firm engages selectively. A limited number of clients are taken on at any given time to ensure every mandate receives the focus it deserves.
+          Sage Global Links works through a small core and a network of regional advisers, former policymakers, business people, sector specialists and governance experts, based in the markets they cover. Each mandate is staffed for what it needs, and the firm takes on a limited number of clients at a time.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
