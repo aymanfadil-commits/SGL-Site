@@ -487,7 +487,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-offwhite/70 font-light leading-relaxed max-w-xl text-lg md:text-[22.67px] mb-12"
         >
-          Senior-level advisory for investors, developers and contractors in infrastructure and trade across Africa and the Middle East.
+          Strategic advisory for investors, developers and contractors in infrastructure and trade across Africa and the Middle East.
         </motion.p>
         
         <motion.div
@@ -523,7 +523,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
             Understanding the economies that shape investment.
           </h2>
           <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px]">
-            Sage Global Links is a senior-level advisory firm working in African and Middle Eastern markets. We combine rigorous political and institutional analysis with trusted regional networks so that clients can move decisively — and so that what they build lasts beyond a single political cycle.
+            Sage Global Links is a strategic advisory firm working in African and Middle Eastern markets. We combine rigorous political and institutional analysis with trusted regional networks so that clients can move decisively — and so that what they build lasts beyond a single political cycle.
           </p>
           <button 
             onClick={() => setPage('about')}
@@ -537,7 +537,6 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
         <div className="grid grid-cols-1 gap-1">
           {[
             { icon: <Globe className="w-5 h-5" />, title: "Africa & Middle East", desc: "Primary corridors of operation" },
-            { icon: <Users className="w-5 h-5" />, title: "Senior-Level Only", desc: "No junior teams. No delegation." },
             { icon: <Landmark className="w-5 h-5" />, title: "Political & Institutional", desc: "Analysis and relationships, combined." }
           ].map((item, i) => (
             <motion.div 
@@ -807,7 +806,7 @@ const AboutPage = ({ setPage }: { setPage: (p: Page) => void }) => (
         </div>
         <h2 className="font-serif font-light text-navy text-3xl md:text-5xl mb-10">Senior-led. Deliberately lean.</h2>
         <p className="text-slate-600 font-light leading-relaxed text-lg md:text-[20.67px] max-w-3xl mb-16">
-          Sage Global Links operates as a senior-led advisory core supported by a curated network of regional advisors, former policymakers, sector specialists, and governance experts. This model allows mandate-specific expertise to be deployed without the overhead of a large firm — and without compromising the quality of counsel clients receive. The firm engages selectively. A limited number of clients are taken on at any given time to ensure every mandate receives the focus it deserves.
+          Sage Global Links operates as a senior-led advisory core supported by a curated network of regional advisors, former policymakers, business people, sector specialists, and governance experts. This model allows mandate-specific expertise to be deployed without the overhead of a large firm — and without compromising the quality of counsel clients receive. The firm engages selectively. A limited number of clients are taken on at any given time to ensure every mandate receives the focus it deserves.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -1059,9 +1058,8 @@ const ServicesPage = () => (
         </h2>
         <div className="flex flex-col">
           {[
-            { title: "We do not broker transactions.", desc: "We advise on positioning, structure and strategy. We do not act as agents, intermediaries or transaction brokers." },
-            { title: "We do not sell access.", desc: "Relationships are an input to our work, not the product itself. We do not promise political access or imply influence we do not have." },
             { title: "We do not work around institutions.", desc: "Regulatory and institutional requirements are part of the environment in which an investment operates. We help clients understand and navigate them, not circumvent them." },
+            { title: "We do not trade on political influence.", desc: "We do not promise access to officials, imply influence over a decision, or price our work against a political outcome." },
             { title: "We do not separate commercial viability from long-term durability.", desc: "A project that cannot withstand political, fiscal or institutional realities is not a durable commercial proposition." }
           ].map((item, i) => (
             <motion.div
