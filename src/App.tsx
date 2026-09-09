@@ -560,7 +560,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
 
     {/* Foundation Quote */}
     <section className="py-32 px-6 lg:px-16 bg-navy relative overflow-hidden">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+      <div className="max-w-4xl mx-auto">
         <div className="order-2 lg:order-1">
           <motion.div 
             whileInView={{ opacity: 1, y: 0 }}
@@ -591,21 +591,6 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
             About Us
           </button>
         </div>
-        <motion.div 
-          whileInView={{ opacity: 1, scale: 1 }}
-          initial={{ opacity: 0, scale: 0.95 }}
-          viewport={{ once: true }}
-          className="relative order-1 lg:order-2"
-        >
-          <div className="aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000">
-            <img 
-              src="/images/home-portrait.jpg"
-              alt="Strategic Advisory"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="absolute -bottom-6 -right-6 w-full h-full border border-gold/30 -z-10" />
-        </motion.div>
       </div>
     </section>
 
